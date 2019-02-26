@@ -1,0 +1,26 @@
+body{
+    background-color: purple;
+}
+nav {
+    text-transform: uppercase;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.nav-item {
+    opacity: 0.7;
+}
+
+.nav-item:hover {
+    opacity: 1.0;
+    background-color: red;
+}
+
+header {
+    background-image: url("https://redstapler.co/wp-content/uploads/2018/06/cool-css-hamburger-menu-3.png");
+    text-align: center;
+    height: 600px;
+    background-size: cover;
+}
+
+header p {
+    font-style: italic;
+}
