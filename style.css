@@ -37,10 +37,17 @@ header p {
     width: 200px;
     display: incline-block;
 }
-div.col-md-4{
-    height: 354px;
-    width: 280px;
+.col-lg-3{
     border: 1px solid;
-    padding: 10px;
     box-shadow: 5px 10px 18px #888888;
+    margin: 40px;
+    padding: 20px;
+}
+p, h1, h2{
+    text-align: center;
+}
+.team img{
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
 }
