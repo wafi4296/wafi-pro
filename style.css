@@ -43,7 +43,7 @@ header p {
     margin: 40px;
     padding: 20px;
 }
-p, h1, h2{
+h1, h2{
     text-align: center;
 }
 .team img{
@@ -56,4 +56,64 @@ p, h1, h2{
 }
 .contacts i{
     padding: 17px;
+}
+#prem{
+    display: block;
+    width: 240px;
+    height: 70px; 
+    color: white; 
+    background-color: #4CD5B5;
+    margin: 0 auto; 
+    text-align: center;  
+    border-radius: 8%;
+}
+#money{
+    display: block;
+    width: 240px; 
+    height: 70px; 
+    color: black; 
+    background-color: #C6BEBE;
+    margin: 0 auto; 
+    text-align: center;
+}
+#stand {
+    display: block;
+    width: 240px; 
+    height: 70px; 
+    color: white; 
+    background-color: #393636;
+    margin: 0 auto; 
+    text-align: center; 
+    border-radius: 8%
+}
+.col-lg-3 p{
+    text-align: center;
+}
+.col-md-3 p{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+}
+.writings{
+    color: white;
+    text-indent: 8px;
+}
+h3{
+    color: white;
+}
+.about{
+    color: white;
+    text-indent: 8px;
+}
+.social{
+    text-indent: 8px;
+}
+.social p{
+    color: blue;
+    word-spacing: 20px;
+}
+.social input{
+    width: 200px;
 }

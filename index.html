@@ -86,40 +86,28 @@
             <div class="row">
                 <div class="col-lg-3">
                     
-                      <input type="text" name="title" value="Standard" style="display: block;
-                         width: 240px; height: 70px; color: white; background-color: #393636; 
-                         margin: 0 auto; text-align: center;  border-radius: 8%" disabled> <p></p>
-                      <input type="text" name="title" value="$9.99/Month" style="display: block;
-                         width: 240px; height: 70px; color: black; background-color: #C6BEBE;
-                         margin: 0 auto; text-align: center;" disabled> <p></p> <br>
-                      <p style="text-align: center">100 users</p>
-                      <p style="text-align: center">SSL Certificates</p>
-                      <p style="text-align: center">Online Support</p>
+                      <input type="text" id="stand" value="Standard" disabled> <p></p>
+                      <input type="text" id="money" value="$9.99/Month" disabled> <p></p> <br>
+                      <p>100 users</p>
+                      <p>SSL Certificates</p>
+                      <p>Online Support</p>
                     	
                     
                 </div>
                <div class="col-lg-3">
-                   <input type="text" name="title" value="Premium" style="display: block;
-                         width: 240px; height: 70px; color: white; background-color: #4CD5B5;
-                         margin: 0 auto; text-align: center;  border-radius: 8%" disabled> <p></p>
-                      <input type="text" name="title" value="$19.99/Month" style="display: block;
-                         width: 240px; height: 70px; color: black; background-color: #C6BEBE;
-                         margin: 0 auto; text-align: center;" disabled> <p></p> <br>
-                      <p style="text-align: center">100 users</p>
-                      <p style="text-align: center">SSL Certificates</p>
-                      <p style="text-align: center">Online Support</p>
+                     <input type="text" id="prem" value="Premium" disabled> <p></p>
+                     <input type="text" id="money" value="$19.99/Month" disabled> <p></p> <br>
+                     <p>100 users</p>
+                     <p>SSL Certificates</p>
+                     <p>Online Support</p>
                     
                 </div>
                 <div class="col-lg-3">
-                    <input type="text" name="title" value="Ultimate" style="display: block;
-                         width: 240px; height: 70px; color: white; background-color: #393636;
-                         margin: 0 auto; text-align: center;  border-radius: 8%" disabled> <p></p>
-                      <input type="text" name="title" value="$29.99/Month" style="display: block;
-                         width: 240px; height: 70px; color: black; background-color: #C6BEBE;
-                         margin: 0 auto; text-align: center;" disabled> <p></p> <br>
-                      <p style="text-align: center">100 users</p>
-                      <p style="text-align: center">SSL Certificates</p>
-                      <p style="text-align: center">Online Support</p>
+                    <input type="text" id="stand" value="Ultimate" disabled> <p></p>
+                      <input type="text" id="money" value="$29.99/Month" disabled> <p></p> <br>
+                      <p>100 users</p>
+                      <p>SSL Certificates</p>
+                      <p>Online Support</p>
                     
                 </div>
             </div>
@@ -192,19 +180,59 @@
                 </div>
             </div>
         </section>
+        <hr>
         <footer class="footer container">
             <div class="row">
                 <div class="col-md-4">
                     <h3>Contact Us</h3>
-                    <p>
-                        <i class="fas fa-address-book"></i>
-                    </p>
+                    <div class="writings">
+                      <p>
+                        <i class="fas fa-home"></i>
+                        <span>Address</span>
+                      </p>
+                      <p>
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                      </p>
+                      <p>
+                        <i class="fas fa-phone"></i>
+                        <span>Phone Number</span>
+                      </p>
+                      <p>
+                        <i class="fas fa-globe"></i>
+                        <span>Website</span>
+                      </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    
+                    <h3>About</h3>
+                    <div class="about">
+                        <p>
+                            <i class="far fa-square"></i>
+                            <span>About Us</span>
+                        </p>
+                        <p>
+                            <i class="far fa-square"></i>
+                            <span>Privacy</span>
+                        </p>
+                        <p>
+                            <i class="far fa-square"></i>
+                            <span>Terms and Conditions</span>
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                    
+                    <h3>Social Media</h3>
+                    <div class="social">
+                        <p>
+                            <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                            <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a href="www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                        <div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" placeholder="subscribe">
+                            <button type="button" class="btn btn-success">Subscribe</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </footer>
